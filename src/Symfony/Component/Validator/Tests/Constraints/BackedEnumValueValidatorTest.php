@@ -29,6 +29,7 @@ class BackedEnumValueValidatorTest extends ConstraintValidatorTestCase
     public function testExpectEnumForTypeAttribute()
     {
         $this->expectException(ConstraintDefinitionException::class);
+        $this->expectExceptionMessage('The "type" must be a \BackedEnum, got "string".');
         new BackedEnumValue(
             type: self::class
         );
