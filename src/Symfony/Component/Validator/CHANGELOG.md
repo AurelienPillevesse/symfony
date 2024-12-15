@@ -3,7 +3,7 @@ CHANGELOG
 
 7.3
 ---
- * Add the `Week` constraint
+ * Add the `BackedEnumValue` constraint
 
 7.2
 ---
