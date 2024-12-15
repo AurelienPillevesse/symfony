@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+7.3
+---
+ * Add the `Week` constraint
+
 7.2
 ---
 
@@ -25,6 +29,8 @@ CHANGELOG
  * Possibility to use all `Ip` constraint versions for `Cidr` constraint
  * Add `list` and `associative_array` types to `Type` constraint
  * Add the `Charset` constraint
+ * Add the `requireTld` option to the `Url` constraint
+ * Deprecate `Bic::INVALID_BANK_CODE_ERROR`
 
 7.0
 ---
